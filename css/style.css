@@ -1,0 +1,140 @@
+/*IMPORTS*/
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;300;500 & display=swap');
+
+/*VARIABLES*/
+
+    /*Font Sizes*/
+
+    --text-xxl: 4.8em;
+    --text-xl: 3.6em;
+    --text-lg: 3.2em;
+    --text-md: 2.2em;
+    --text-sm: 1.6em;
+    --text.xs: 1.2em;
+
+    /*Spacings*/
+
+    --sp-xxl: 12rem;
+    --sp-xl: 8rem;
+    --sp-lg: 5rem;
+    --sp-md: 3.2rem;
+    --sp-sm: 1.6rem;
+    --sp-xs: 0.8rem;
+
+
+/*NORMALIZE*/
+
+* ´{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62,5%;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--text-sm);
+    color: #FDFDFD;
+    background-image: url(https://cdn.clickwallpapers.net/images/clickwallpapers-FIFA23-jogos-4k-img4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-size: var(--text-md);
+    text-decoration: none;
+    color: black;
+}
+
+.container_main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.buttons {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: chartreuse;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+#proveedor {
+    color: #FDFDFD;
+}
+
+/*HEADER*/
+
+header {
+    padding: var(--sp-sm);
+    background-color: crimson;
+}
+
+.img_logo {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbar__link {
+    display: flex;
+}
+
+.navbar .menu {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+
+.navbar .menu .menu__link {
+    color: #FDFDFD;
+    margin: 8px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: crimson;
+    padding: var(--sp-sm);
+    height: 100px;
+}
+
+.derechos {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.logos__align {
+    margin: 8px;
+    padding: 20px;
+    display: inline;
+}
+
+.logos .logos__align .logos__foot {
+    width: 50px;
+    height: 50px;
+}
+
