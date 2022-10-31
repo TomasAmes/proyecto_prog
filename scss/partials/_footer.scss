@@ -1,0 +1,26 @@
+/*Footer*/
+
+footer {
+    background-color: crimson;
+    padding: var(--sp-sm);
+    height: 100px;
+
+    .derechos {
+        display: flex;
+        justify-content: center;
+        color: black;
+    }
+
+    .logos__align {
+        margin: 8px;
+        padding: 20px;
+        display: inline;
+
+        .logos .logos__align .logos__foot {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    
+}
+

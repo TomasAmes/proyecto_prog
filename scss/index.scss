@@ -1,0 +1,21 @@
+/*IMPORTS*/
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;300;500 & display=swap');
+
+/* MISC */
+
+@import './misc/variables';
+@import './misc/normalize';
+
+/* PARTIALS */
+
+@import './partials/header';
+@import './partials/footer';
+
+/* PAGES */
+
+@import './pages/index';
+@import './pages/contacto';
+@import './pages/comprar_monedas';
+@import './pages/convertirse_en_proveedor';
+@import './pages/iniciar-registro';

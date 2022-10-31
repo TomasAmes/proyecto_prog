@@ -1,0 +1,58 @@
+
+
+/*NORMALIZE*/
+
+* ´{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62,5%;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--text-sm);
+    color: #FDFDFD;
+    background-image: url(https://cdn.clickwallpapers.net/images/clickwallpapers-FIFA23-jogos-4k-img4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-size: var(--text-md);
+    text-decoration: none;
+    color: black;
+}
+
+.container_main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.buttons {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: chartreuse;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+}
+
