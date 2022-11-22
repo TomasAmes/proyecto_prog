@@ -138,7 +138,7 @@ header {
 footer {
     background-color: crimson;
     padding: var(--sp-sm);
-    height: 100px;
+    height: 100px
 }
 
 .derechos {
